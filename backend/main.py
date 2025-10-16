@@ -37,7 +37,7 @@ class AudioGenerationBase(BaseModel):
 
 
 class GenerateFromDescriptionRequest(AudioGenerationBase):
-    full_described_song: strpop
+    full_described_song: str
 
 
 class GenerateWithCustomLyricsRequest(AudioGenerationBase):
